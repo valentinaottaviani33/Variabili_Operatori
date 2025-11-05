@@ -151,7 +151,7 @@ console.log("La somma dei due numeri inseriti è : " ,sommaNumeri);
 alert("La somma dei due numeri inseriti è : " + sommaNumeri);
 
 
-console.log(numeroInserito);
+//console.log(numeroInserito);
 
 
 //---------------------------------------------- CONDIZIONI IF ELSE -------------
