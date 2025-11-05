@@ -130,15 +130,15 @@ console.log("Il resto è : ", modulo);
 
 //chiedi il nome all utente
 
-//let nomeInserito = prompt("Inserisci un nome");
+let nomeInserito = prompt("Inserisci un nome");
 
-//console.log(nomeInserito);
+console.log(nomeInserito);
 
 
 //chiedi un numero all utente tramite prompt -> parseInt gestisce i numeri interi inseriti
 //                                              parseFloat gestisce i numeri decimali
 
-/*
+
 
 let numeroInserito1 = parseInt(prompt("Inserisci primo numero"));
 let numeroInserito2 = parseInt(prompt("Inserisci secondo numero"));
@@ -150,12 +150,12 @@ console.log("La somma dei due numeri inseriti è : " ,sommaNumeri);
 //Mostro a schermo il risultato
 alert("La somma dei due numeri inseriti è : " + sommaNumeri);
 
-*/
-//console.log(numeroInserito);
+
+console.log(numeroInserito);
 
 
 //---------------------------------------------- CONDIZIONI IF ELSE -------------
-/*
+
 //confronto banale di due password (parole)
 let password1 = prompt("Inserisci la tua password : ");
 
@@ -170,10 +170,10 @@ if ( password1 === password2  ){
 
     alert("Le password sono diverse, mi spiace.");
 
-}*/
+}
 
 //Esempio emulazione confronto password captcha
-/*
+
 let passwordInserita = prompt("INSERISCI L PASSWORD");
 
 let passwordBackend = "pippo";
@@ -186,13 +186,13 @@ if (passwordInserita === passwordBackend){
 
     alert("no");
 }
-*/
+
 
 
 
 //------------------------ ESEMPIO IF ELSE SEMAFORO
 
-/*
+
 let colore = prompt("inserisci il colore del semaforo( rosso, giallo o verde");
 
 
@@ -213,12 +213,12 @@ if (colore === "rosso"){
 }
 
 
-*/
+
 
 
 
 //------------------------ CHIEDI ALL UTENTE UN NUMERO E VERIFICA SE PARI O DISPARI
-/*
+
 let numeroPD = parseInt(prompt("Inserisci un numero : "));
 
 
@@ -231,7 +231,7 @@ if (numeroPD % 2 === 0) {
   console.log(numeroPD + " è un numero dispari.");
 
 }
-*/
+
 
 
 //----------------------------------------------- OPERATORI DI CONFRONTO ----------------------
@@ -239,7 +239,7 @@ if (numeroPD % 2 === 0) {
 //Servono per confrontare due valori e restituire un risultato booleano (VERO, FALSO)
 
 //Controllo maggiore o minore : chiedo 2 numeri 
-/*
+
 let n1 = parseInt(prompt("Inserisci il primo numero : "));
 let n2 = parseInt(prompt("Inserisci il secondo numero : "));
 
@@ -257,14 +257,14 @@ if (n1 > n2){
 
 }
 
-*/
+
 
 
 
 
 
 //Esempio CONTROLLO ETA' MINORENNE MAGGIORENNE
-/*
+
 let eta = parseInt(prompt("Inserisci la tua età : "));
 
 if (eta >= 18 ){
@@ -275,12 +275,12 @@ if (eta >= 18 ){
 
     alert("Sei minorenne");
 }
-*/
+
 
 
 
 //Esempio CONTROLLO PASSWORD DIVERSA     != si chiama NOT-EQUAL
-/*
+
 let pwrd = prompt("Inserisci la password : ");
 let pwrdCorretta = "pippo";
 
@@ -292,7 +292,7 @@ if(pwrd !== pwrdCorretta){
 
     alert("Accesso consentito!");
 }
-*/
+
 
 
 //ESERCIZIO :
@@ -301,7 +301,7 @@ if(pwrd !== pwrdCorretta){
     CHIEDERE UN VOTO E DIRE SE è SUFFICIENTE O INSUFFICIENTE
 */
 
-/*
+
 let voto = parseInt(prompt("inserisci il voto : "));
 
 if (voto >= 6 ){
@@ -312,7 +312,7 @@ if (voto >= 6 ){
 
     alert("bocciato");
 }
-*/
+
 
 
 
@@ -327,13 +327,13 @@ if (voto >= 6 ){
 
 //ESEMPIO && : chiedi l età e consenti l accesso solo tra i 18 e i 65 anni
 
-let eta = parseInt(prompt("inserisci la tua età : "));
+let eta2 = parseInt(prompt("inserisci la tua età : "));
 
-if(eta >= 18 && eta <= 65){
+if(eta2 >= 18 && eta2 <= 65){
 
     alert("accesso consentito");
 
-}else if (eta < 18){
+}else if (eta2 < 18){
 
     alert("Accesso non consentito, sei minorenne!");
 
@@ -361,7 +361,7 @@ if (giorno === "sabato" || giorno === "domenica"){
 
 
 //ESEMPIO || : chiedere il mese inserito e dire se è estate oppure no
-/*
+
 let mese = prompt("Inserisci il mese : ").toLowerCase();//converto in minuscolo
 
 //controllo se è giugno luglio agosto 
@@ -374,26 +374,26 @@ if (mese === "giugno" || mese === "luglio" || mese === "agosto" ){
 
     alert("non è estate");
 }
-*/
+
 
 
 //ESEMPIO || : chiedo un mese, e voglio sapere a quale stagione appartiene
 
-let mese = prompt("Inserisci il mese : ").toLowerCase();//converto in minuscolo
+let mese2 = prompt("Inserisci il mese : ").toLowerCase();//converto in minuscolo
 
-if (mese === "giugno" || mese === "luglio" || mese === "agosto" ){
+if (mese2 === "giugno" || mese2 === "luglio" || mese2 === "agosto" ){
 
     alert("è estate");
 
-}else if (mese === "settembre" || mese === "ottobre" || mese === "novembre" ){
+}else if (mese2 === "settembre" || mese2 === "ottobre" || mese2 === "novembre" ){
 
     alert("è autunno");
 
-}else if (mese === "dicembre" || mese === "gennaio" || mese === "febbraio" ){
+}else if (mese2 === "dicembre" || mese2 === "gennaio" || mese2 === "febbraio" ){
 
     alert("è inverno");
 
-}else if (mese === "marzo" || mese === "aprile" || mese === "maggio" ){
+}else if (mese2 === "marzo" || mese2 === "aprile" || mese2 === "maggio" ){
 
     alert("è primavera");
 
